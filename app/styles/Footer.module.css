@@ -1,0 +1,38 @@
+.footer {
+    background-color: #0a3d62;
+    color: #fff;
+    padding: 2rem 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 1rem;
+  }
+  
+  .column h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .column p {
+    line-height: 1.5;
+  }
+  
+  .socials {
+    margin-top: 15px;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .socials img {
+    width: 24px;
+    height: 24px;
+  }
+  

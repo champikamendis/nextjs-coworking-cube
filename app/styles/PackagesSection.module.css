@@ -1,0 +1,80 @@
+/* styles/PackagesSection.module.css */
+.packages {
+  padding: 80px;
+  background-color: white;
+  text-align: center;
+}
+
+.packages h2 {
+  font-size: 36px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.price {
+  font-size: 32px;
+  color: #333;
+  margin: 20px 0;
+}
+
+.price span {
+  font-size: 16px;
+  color: #999;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.getStarted {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.getStarted:hover {
+  background-color: #002244;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.card ul li {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}

@@ -1,0 +1,78 @@
+/* components/HeroSection.module.css */
+.container {
+    padding-top: 30px;
+    background-color: white;
+}
+
+.normalText {
+    font: 600;
+    color: black;
+    /* font-size: 2.5rem; */
+}
+
+.hero {
+    background-image: url('/images/image-main.jpg');
+    /* Make sure to place your image in the public folder */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: #333;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    height: 100vh;
+}
+
+.heroContent {
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.heroTextWrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    width: 45%;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.highlight {
+    color: #f60;
+    font-weight: 600;
+}
+
+.description {
+    width: 45%;
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.city {
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+.button {
+    background-color: #f60;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}

@@ -1,0 +1,71 @@
+/* components/Workspaces.module.css */
+.workspaces {
+  padding: 60px 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.workspaceGrid {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.workspace {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.description {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.details {
+  text-align: left;
+  margin: 10px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.detailItem {
+  margin-bottom: 5px;
+}
+
+.button {
+  background-color: #f60;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  display: inline-block;
+  margin-top: 20px;
+}
